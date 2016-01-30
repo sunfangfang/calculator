@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../image/bg.jpg) no-repeat;
+	background-size: 100%;
+	-webkit-user-select:none;
+}
+.clear{
+	clear: both;
+}
+#qiehuan{
+	width: 240px;
+    height: 50px;
+    background: #ccc;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 13px black;
+    cursor: pointer;
+    margin: 30px auto;
+}
+#qiehuan:hover{
+	background-image: linear-gradient(#aaaba2, #575852);
+}
+.contain{
+	margin: 40px auto;
+	width: 400px;
+	height: 620px;
+	background: #CBCBCB;
+	box-shadow:0 3px 10px black; 
+	/*border: 1px solid black;*/
+	/*padding: 20px;*/
+}
+.time{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+}
+.xiao{
+	width: 80px;
+	height: 50px;
+	float: left;
+	margin: 10px;	
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	box-shadow: 0 3px 10px black;
+	border-radius: 5px;
+	background: #ECEBEB;
+	cursor: pointer;
+}
+.xianshiping{
+	width: 350px;
+	height: 100px;
+	background-color: #214010;
+	border: 3px solid black;
+	box-shadow: 0 3px 10px white;
+	margin: 20px 10px;
+	font-size: 3em;
+	text-align: right;
+	line-height: 150px;
+	padding: 10px;
+	overflow: hidden;
+}
+.dengyu{
+	height: 120px;
+	float: right;
+	line-height: 100px;
+	background-color: #E64B0A;
+	color: white;
+}
+.ling{
+	width: 180px;
+}
+.shenghui{
+	background-image:linear-gradient(#696969,#4E4E4E);
+	color: white;
+}
+.qianhui{
+	background-image:linear-gradient(#7B7B7B,#696969);
+	color: white;
+}
+.num{
+	transition: all .5s ease;
+}
+.num:hover{
+	background-image: linear-gradient(#aaaba2, #575852);
+	color:#fff;
+}
+
+#contain1{
+	display: none;
+	width: 620px;
+	height: 400px;
+}
+.small{
+	width: 75px;
+	height: 45px;
+	float: left;
+	margin: 10px;	
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	box-shadow: 0 3px 10px black;
+	border-radius: 5px;
+}
+.num1{
+	transition: all .5s ease;
+}
+.num1:hover{
+	background-image: linear-gradient(#aaaba2, #575852);
+	color:#fff;
+}
+#ping{
+	width: 605px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin:5px;
+	font-size: 30px;
+}
+.xiao1{
+	width: 60px;
+	margin: 8px;
+	height: 35px;
+	line-height: 35px;
+}
+.ling1{
+	width: 140px;
+}
+.dengyu1{
+	height: 86px;
+	margin: 8px 20px 0 0;
+	line-height: 86px;
+}
+
